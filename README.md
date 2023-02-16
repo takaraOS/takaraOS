@@ -1,7 +1,8 @@
-<div style="align:center">
-    <img src="assets/logo.png" style="margin:auto" />
+<div align="center">
+    <img src="assets/logo.png" style="width:100px"/>
+    <h1> Takara OS </h1>
 </div>
-# TakaraOS
+
 TakaraOS is a microkernel OS written in Rust that can run WebAssembly (Wasm) code at level 0. This unique capability has the potential to **revolutionize the way we build low-level applications**, allowing developers to write self-contained modules in a variety of programming languages. The result is a highly efficient, secure, and flexible operating system that is ideal for embedded systems and IoT devices.
 
 ## TL;DR
