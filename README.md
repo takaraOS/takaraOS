@@ -18,13 +18,13 @@ TakaraOS has been designed with **security** in mind, with features such as memo
 
 In summary, TakaraOS is a microkernel operating system written in Rust, designed to be small, secure, and efficient. Its unique feature of running Wasm code at level 0 makes it an excellent choice for applications that require high performance and low overhead. TakaraOS's modular design, coupled with Rust's memory safety and ownership model, make it a reliable and secure operating system for embedded systems, IoT devices, and other low-level applications.
 
-## Deeper look at wasm in level
+## Deeper look at wasm in level 0
 [WebAssembly](https://webassembly.org/) (Wasm) is a binary instruction format for a stack-based virtual machine that is designed to run on a wide range of platforms. One of the key advantages of Wasm is that it can be used with a variety of programming languages, making it a versatile technology for building applications.
 
 With TakaraOS, Wasm can be run at level 0, which means that it can be used to build low-level system components such as device drivers, memory management, and inter-process communication. This is possible because **Wasm code can be compiled to a format that is directly executable on the microkernel**, without needing to go through the traditional system call interface.
 
 The ability to run Wasm at level 0 has a number of benefits.
-1. First, it **allows developers to write system components in a wide range of programming languages**, including C++, Rust, and even JavaScript. This means that developers can use the language that is best suited to the task at hand, without being restricted to a specific language.
+1. First, it **allows developers to write system components in a wide range of programming languages**, including C++, Rust, and even JavaScript. This means that developers can use the language that is more suitable to the task at hand, without being restricted to a specific language.
 2. In addition, running Wasm at level 0 means that **system components can be written as self-contained modules that can be loaded and unloaded at runtime**. This makes it easier to update and maintain the operating system, as modules can be updated without needing to restart the entire system. It also allows developers to experiment with new system components, without needing to modify the core operating system.
 
-Overall, the ability to run Wasm at level 0 makes TakaraOS a highly versatile and flexible operating system, capable of running a wide range of programming languages and self-contained system components. This, combined with the microkernel architecture and Rust programming language, makes TakaraOS a highly secure, efficient, and reliable operating system for low-level applications.
+Overall, the ability to use Wasm at level 0 makes TakaraOS a highly versatile and flexible operating system, capable of running a wide range of programming languages and self-contained system components. This, combined with the microkernel architecture and Rust programming language, makes TakaraOS a highly secure, efficient, and reliable operating system for low-level applications.
