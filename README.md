@@ -1,5 +1,5 @@
 # takaraOS
-mikrokernel OS with WASM at level 0
+TakaraOS is a microkernel OS written in Rust that can run WebAssembly (Wasm) code at level 0. This unique capability has the potential to **revolutionize the way we build low-level applications**, allowing developers to write self-contained modules in a variety of programming languages. The result is a highly efficient, secure, and flexible operating system that is ideal for embedded systems and IoT devices.
 
 ## TL;DR
 TakaraOS is a microkernel operating system written in Rust. Microkernel architecture is a design that separates the kernel into small, modular components, each of which has a specific set of responsibilities. TakaraOS is designed to be **small**, **secure**, and **efficient**, making it an ideal choice for embedded systems, IoT devices, and other applications that require a small operating system footprint.
